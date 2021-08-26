@@ -1,6 +1,7 @@
+# Image-Processing-Sudoku-Solver in C
+
 // Taiatu Iulian Marius - 312CB
 // PC - Homework 3
-// Image-Processing-Sudoku-Solver in C
 
 First of all, I made functions for a lot of operations for a better approach.
 
