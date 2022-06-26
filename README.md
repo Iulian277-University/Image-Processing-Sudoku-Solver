@@ -33,7 +33,6 @@
         as in the Task 3 for digit recognition and generating the sudoku_digits matrix.
         I made a matrix (freq_matrix) for holding the information where were the blank
         squares from beginning input. I solved the sudoku and here comes the differentiating part:
-
         If the input was for task4:
             I wrote magenta digits on the output file, because at this task (4) it is guaranteed 
             that the input sudokus are only doable sudokus.
@@ -48,5 +47,4 @@
                     pixel matrices and write data into bmp output file
 
 
-You can find more explanations for each function in the source code.
-Thank you! :)
+You can find more explanations for each function in the source code. Thank you! :)
