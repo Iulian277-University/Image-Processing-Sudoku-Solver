@@ -1,29 +1,29 @@
 # Image-Processing-Sudoku-Solver in C
 
-// Taiatu Iulian Marius - 312CB
-// PC - Homework 3
+## Taiatu Iulian Marius - 312CB
 
-First of all, I made functions for a lot of operations for a better approach.
-
-Task 1: I read from json file input and I computed the output file name.
+`Task 1`:
+        I read from json file input and I computed the output file name.
         After that, I divided the pixel array into 3 matrices (red, green and blue),
         computed the data string and wrote the output file (.bmp), taking into
         consideration the padding pixels for each row.
 
-Task 2: I computed the output file name and divided the pixel array 
+`Task 2`:
+        I computed the output file name and divided the pixel array 
         into 3 matrices (red, green and blue). For this task, I flipped the
         image horizontally first and then mirrored the flipped image.
         I computed the data string and wrote the output file (.bmp), taking 
         into consideration the padding pixels for each row.
 
-Task 3: I used 3 auxiliary matrices (red_reindexed, green_reindexed, blue_reindexed).
+`Task 3`:
+        I used 3 auxiliary matrices (red_reindexed, green_reindexed, blue_reindexed).
         I changed the order of reading the pixels for a easier way of manipulating the
         sudoku matrix after all. For digit recognition, I counted the pink pixels from
         each square and with a little bit of differentiation between some digits,
         I computed the sudoku digits matrix. After this, I checked the validity of sudoku
         and printed the output to the proper json file.
 
-Task 4 + Bonus:
+`Task 4 + Bonus`:
         Taking into account the fact that the algorithm is the same for
         both tasks (backtracking), I combined those tasks into one function.
         First of all, I read from bmp input file: Fileheader, Infoheader and pixels data.
@@ -48,5 +48,5 @@ Task 4 + Bonus:
                     pixel matrices and write data into bmp output file
 
 
-P.S.: You can find more explanations for each function in the source code.
+You can find more explanations for each function in the source code.
 Thank you! :)
