@@ -33,18 +33,19 @@
         as in the Task 3 for digit recognition and generating the sudoku_digits matrix.
         I made a matrix (freq_matrix) for holding the information where were the blank
         squares from beginning input. I solved the sudoku and here comes the differentiating part:
-        If the input was for task4:
-            I wrote magenta digits on the output file, because at this task (4) it is guaranteed 
-            that the input sudokus are only doable sudokus.
-            So, I did the same thing as above: Manipulate the pixel matrices and write data 
-            into bmp output file
-        If the input was for task bonus:
-            I verified if the sudoku is valid:
-                If isn't valid:
-                    Print the bmp file completed with 'X' symbol
-                If is valid:
-                    Print magenta digits on it. I did the same thing as above: Manipulate the 
-                    pixel matrices and write data into bmp output file
+        
+If the input was for task4:
+    I wrote magenta digits on the output file, because at this task (4) it is guaranteed 
+    that the input sudokus are only doable sudokus.
+    So, I did the same thing as above: Manipulate the pixel matrices and write data 
+    into bmp output file
+If the input was for task bonus:
+    I verified if the sudoku is valid:
+        If isn't valid:
+            Print the bmp file completed with 'X' symbol
+        If is valid:
+            Print magenta digits on it. I did the same thing as above: Manipulate the 
+            pixel matrices and write data into bmp output file
 
 
 You can find more explanations for each function in the source code. Thank you! :)
